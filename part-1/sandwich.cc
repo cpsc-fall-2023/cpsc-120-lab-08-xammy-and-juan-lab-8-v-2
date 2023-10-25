@@ -1,4 +1,7 @@
-// TODO: Add the required header
+// Xammy Yang
+// yxammy@csu.fullerton.edu
+// @YXammy
+// Partners: @barragan-j
 
 #include <iostream>
 #include <string>
@@ -17,7 +20,8 @@ int main(int argc, char* argv[]) {
   std::string condiment = arguments[3];
 
   std::cout << "Your order:" << std::endl;
-  std::cout << "A " << protein << " sandwich on " << bread << " with " << condiment << "." << std::endl;
+  std::cout << "A " << protein << " sandwich on " << bread << " with "
+            << condiment << "." << std::endl;
 
   return 0;
 }

@@ -1,4 +1,7 @@
-// TODO: Add the required header
+// Xammy Yang
+// yxammy@csu.fullerton.edu
+// @YXammy
+// Partners: @barragan-j
 
 #include <iostream>
 #include <string>
@@ -13,7 +16,7 @@ int main(int argc, char* argv[]) {
   }
 
   double sum = 0;
-  for (int i = 1; i < argc; ++i){
+  for (int i = 1; i < argc; ++i) {
     sum += std::stod(arguments[i]);
   }
 
